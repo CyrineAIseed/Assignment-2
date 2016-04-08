@@ -1,0 +1,359 @@
+
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#ff000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".75"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:textSize="@dimen/abc_dialog_padding_material"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+
+
+
+            android:id="@+id/txtView" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"
+        android:orientation="vertical"
+        android:layout_marginRight="4dp"
+        android:layout_marginLeft="4dp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/btnC"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="C"
+                android:background="#dfb8b8b9"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="@dimen/abc_action_bar_content_inset_material"
+               ></Button>
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/btnMC"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+                android:text="MC"
+                android:background="#dfb8b8b9"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="@dimen/abc_action_bar_content_inset_material"
+              ></Button>
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/btnMr"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+                android:text="MR"
+                android:background="#dfb8b8b9"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="@dimen/abc_action_bar_content_inset_material"
+                ></Button>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/btnMplus"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="M+"
+                android:layout_marginBottom="5dp"
+                android:textSize="@dimen/abc_action_bar_content_inset_material"
+                android:background="#dfb8b8b9"></Button>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <Button
+                android:layout_weight=".66"
+                android:id="@+id/btnBack"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="Back"
+                android:background="#dfb8b8b9"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:textSize="@dimen/abc_action_bar_content_inset_material"
+
+                android:onClick="onclick_back"></Button>
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/btnN"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+                android:text="N"
+                android:background="#dfb8b8b9"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:textSize="@dimen/abc_action_bar_content_inset_material"
+                ></Button>
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/btnDiv"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+                android:text="/"
+                android:background="#dfb8b8b9"
+                android:layout_marginBottom="5dp"
+                android:textSize="@dimen/abc_action_bar_content_inset_material"
+                ></Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/btn7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="7"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+
+                android:textSize="@dimen/abc_action_bar_content_inset_material"></Button>
+
+            <Button
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:id="@+id/btn8"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+                android:text="8"
+                android:textSize="@dimen/abc_action_bar_content_inset_material"
+                ></Button>
+
+            <Button
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:id="@+id/btn9"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+                android:text="9"
+                android:textSize="@dimen/abc_action_bar_content_inset_material"
+               ></Button>
+            <Button
+                android:layout_marginBottom="5dp"
+
+
+                android:layout_weight="1"
+                android:id="@+id/btnMul"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+                android:text="*"
+                android:textSize="@dimen/abc_action_bar_content_inset_material"
+                android:background="#dfb8b8b9"></Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <Button
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:id="@+id/btn4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="4"
+
+                android:textSize="@dimen/abc_action_bar_content_inset_material"></Button>
+
+            <Button
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:id="@+id/btn5"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+                android:text="5"
+                android:textSize="@dimen/abc_action_bar_content_inset_material"
+               ></Button>
+
+            <Button
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:id="@+id/btn6"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+                android:text="6"
+                android:textSize="@dimen/abc_action_bar_content_inset_material"
+              ></Button>
+            <Button
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:id="@+id/btnMin"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+                android:text="-"
+                android:background="#dfb8b8b9"
+                android:textSize="@dimen/abc_action_bar_content_inset_material"
+                ></Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <Button
+
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="1"
+                android:textSize="@dimen/abc_action_bar_content_inset_material"
+                ></Button>
+
+            <Button
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:id="@+id/btn2"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="2"
+                android:textSize="@dimen/abc_action_bar_content_inset_material"
+                ></Button>
+
+            <Button
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:id="@+id/btn3"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+                android:text="9"
+                android:textSize="@dimen/abc_action_bar_content_inset_material"
+                ></Button>
+            <Button
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:id="@+id/btnPlus"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="+"
+                android:background="#dfb8b8b9"
+                android:textSize="@dimen/abc_action_bar_content_inset_material"
+                ></Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <Button
+                android:layout_marginRight="5dp"
+                android:layout_weight=".26"
+                android:id="@+id/btn0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="0"
+                android:textSize="@dimen/abc_action_bar_content_inset_material"
+                ></Button>
+
+            <Button
+
+                android:layout_weight=".8"
+                android:id="@+id/btnEqual"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+                android:text="="
+                android:background="#d2727171"
+                android:textSize="@dimen/abc_action_bar_content_inset_material"
+                ></Button>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
